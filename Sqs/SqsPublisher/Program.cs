@@ -10,7 +10,10 @@ var message = new CustomerCreated
     Id = Guid.NewGuid(),
     FullName = "Anusha Ramadugu",
     Email = "abc@gmail.com",
-    DateOfBirth = new DateOnly(1985, 10, 10),
+    DateOfBirth = new DateOnly(1985,
+        10,
+        10),
+    GitHubUsername = "anusha-007",
 };
 var queueUrlResponse = await sqs.GetQueueUrlAsync("Customers");
 
