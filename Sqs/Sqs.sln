@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsConsumer", "SqsConsumer\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "Customers.Api\Customers.Api.csproj", "{DF495E8C-6C1D-4614-A0DF-45BB8A86AD93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Consumer", "Customers.Consumer\Customers.Consumer.csproj", "{A489935E-B163-4C73-978A-C987CC3125AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{DF495E8C-6C1D-4614-A0DF-45BB8A86AD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF495E8C-6C1D-4614-A0DF-45BB8A86AD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF495E8C-6C1D-4614-A0DF-45BB8A86AD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A489935E-B163-4C73-978A-C987CC3125AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A489935E-B163-4C73-978A-C987CC3125AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A489935E-B163-4C73-978A-C987CC3125AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A489935E-B163-4C73-978A-C987CC3125AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
