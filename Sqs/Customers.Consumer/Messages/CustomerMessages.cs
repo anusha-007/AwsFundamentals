@@ -1,6 +1,8 @@
-namespace Customers.Consumer;
+using MediatR;
 
-public class CustomerCreated
+namespace Customers.Consumer.Messages;
+
+public class CustomerCreated : ISqsMessage
 {
     public required string GitHubUsername { get; init; } = default!;
 
@@ -11,7 +13,7 @@ public class CustomerCreated
     public required DateTime DateOfBirth { get; init; } = default!;
 }
 
-public class CustomerUpdated
+public class CustomerUpdated : ISqsMessage
 {
     public required Guid Id { get; set; }
     
@@ -24,7 +26,7 @@ public class CustomerUpdated
     public required DateTime DateOfBirth { get; init; } = default!;
 }
 
-public class CustomerDeleted
+public class CustomerDeleted : ISqsMessage
 {
     public required Guid Id { get; set; }
 }

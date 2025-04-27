@@ -1,7 +1,4 @@
-﻿
-
-
-using Amazon.SQS;
+﻿using Amazon.SQS;
 using Amazon.SQS.Model;
 
 var cts = new CancellationTokenSource();
